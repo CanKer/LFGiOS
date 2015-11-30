@@ -136,7 +136,13 @@
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="735-d7-nOa"/>
+                    <navigationItem key="navigationItem" id="735-d7-nOa">
+                        <barButtonItem key="leftBarButtonItem" title="LogOut" id="Lpg-1r-Cyk">
+                            <connections>
+                                <action selector="logOutDidTap:" destination="2VZ-hm-0gc" id="UDG-R4-Zm0"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <segue destination="upQ-99-fDG" kind="show" identifier="Show Log In" id="KIK-7z-gTZ"/>
                     </connections>

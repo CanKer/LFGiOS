@@ -16,7 +16,11 @@ class chek: UIViewController {
         static let ShowLoginSegue = "Show Log In"
     }
     
-    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        self.navigationController?.navigationBarHidden = false
+    }
     override func viewDidLoad() {
         
         super.viewDidLoad()
@@ -27,10 +31,26 @@ class chek: UIViewController {
         
         // Do any additional setup after loading the view.
     }
+    
+    @IBAction func logOutDidTap(sender: AnyObject)
+    {
+        PFUser.logOut()
+        self.performSegueWithIdentifier(Storyboard.ShowLoginSegue, sender: nil)
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?)
+    {
+        if segue.identifier == Storyboard.ShowLoginSegue {
+            let loginSignupVC = segue.destinationViewController as! LoginSignupViewController
+            loginSignupVC.hidesBottomBarWhenPushed = true
+            loginSignupVC.navigationItem.hidesBackButton = true
+        }
     }
     
 
