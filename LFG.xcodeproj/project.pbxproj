@@ -10,7 +10,6 @@
 		519262B81C0C6A0200B63F41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519262B71C0C6A0200B63F41 /* AppDelegate.swift */; };
 		519262BA1C0C6A0200B63F41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519262B91C0C6A0200B63F41 /* ViewController.swift */; };
 		519262BD1C0C6A0200B63F41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 519262BB1C0C6A0200B63F41 /* Main.storyboard */; };
-		519262BF1C0C6A0200B63F41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 519262BE1C0C6A0200B63F41 /* Assets.xcassets */; };
 		519262C21C0C6A0200B63F41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 519262C01C0C6A0200B63F41 /* LaunchScreen.storyboard */; };
 		519262C71C0C6A0200B63F41 /* LFG WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 519262C61C0C6A0200B63F41 /* LFG WatchKit App.app */; };
 		519262CD1C0C6A0200B63F41 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 519262CB1C0C6A0200B63F41 /* Interface.storyboard */; };
@@ -20,6 +19,28 @@
 		519262DF1C0C6A0200B63F41 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519262DE1C0C6A0200B63F41 /* ExtensionDelegate.swift */; };
 		519262E11C0C6A0200B63F41 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519262E01C0C6A0200B63F41 /* NotificationController.swift */; };
 		519262E31C0C6A0200B63F41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 519262E21C0C6A0200B63F41 /* Assets.xcassets */; };
+		519262F31C0C6A0C00B63F41 /* elDetalle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519262F21C0C6A0C00B63F41 /* elDetalle.swift */; };
+		519262F51C0C6A1200B63F41 /* lista.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519262F41C0C6A1200B63F41 /* lista.swift */; };
+		519262FD1C0C6CBC00B63F41 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 519262F71C0C6CBC00B63F41 /* Bolts.framework */; };
+		519262FE1C0C6CBC00B63F41 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 519262F81C0C6CBC00B63F41 /* Parse.framework */; };
+		519262FF1C0C6CBC00B63F41 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 519262F91C0C6CBC00B63F41 /* ParseFacebookUtils.framework */; };
+		519263001C0C6CBC00B63F41 /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 519262FA1C0C6CBC00B63F41 /* ParseFacebookUtilsV4.framework */; };
+		519263011C0C6CBC00B63F41 /* ParseTwitterUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 519262FB1C0C6CBC00B63F41 /* ParseTwitterUtils.framework */; };
+		519263021C0C6CBC00B63F41 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 519262FC1C0C6CBC00B63F41 /* ParseUI.framework */; };
+		519263041C0C6CF900B63F41 /* LoginSignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519263031C0C6CF900B63F41 /* LoginSignupViewController.swift */; };
+		519263061C0C6D7400B63F41 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 519263051C0C6D7400B63F41 /* AudioToolbox.framework */; };
+		519263081C0C6D7F00B63F41 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 519263071C0C6D7F00B63F41 /* CFNetwork.framework */; };
+		5192630A1C0C6D8500B63F41 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 519263091C0C6D8500B63F41 /* CoreGraphics.framework */; };
+		5192630C1C0C6D8C00B63F41 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5192630B1C0C6D8C00B63F41 /* CoreLocation.framework */; };
+		5192630E1C0C6D9300B63F41 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5192630D1C0C6D9300B63F41 /* QuartzCore.framework */; };
+		519263101C0C6D9B00B63F41 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5192630F1C0C6D9B00B63F41 /* Security.framework */; };
+		519263121C0C6DA100B63F41 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 519263111C0C6DA100B63F41 /* StoreKit.framework */; };
+		519263141C0C6DA800B63F41 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 519263131C0C6DA800B63F41 /* SystemConfiguration.framework */; };
+		519263161C0C6DB200B63F41 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 519263151C0C6DB200B63F41 /* libz.tbd */; };
+		519263181C0C6DBB00B63F41 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 519263171C0C6DBB00B63F41 /* libsqlite3.tbd */; };
+		5192631E1C0C70CC00B63F41 /* chequeo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5192631D1C0C70CC00B63F41 /* chequeo.swift */; };
+		519263221C0C751600B63F41 /* chek.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519263211C0C751600B63F41 /* chek.swift */; };
+		519263241C0C75DE00B63F41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 519263231C0C75DE00B63F41 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,7 +90,6 @@
 		519262B71C0C6A0200B63F41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		519262B91C0C6A0200B63F41 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		519262BC1C0C6A0200B63F41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		519262BE1C0C6A0200B63F41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		519262C11C0C6A0200B63F41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		519262C31C0C6A0200B63F41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		519262C61C0C6A0200B63F41 /* LFG WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LFG WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,6 +103,28 @@
 		519262E01C0C6A0200B63F41 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		519262E21C0C6A0200B63F41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		519262E41C0C6A0200B63F41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		519262F21C0C6A0C00B63F41 /* elDetalle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = elDetalle.swift; sourceTree = "<group>"; };
+		519262F41C0C6A1200B63F41 /* lista.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = lista.swift; sourceTree = "<group>"; };
+		519262F71C0C6CBC00B63F41 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		519262F81C0C6CBC00B63F41 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		519262F91C0C6CBC00B63F41 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		519262FA1C0C6CBC00B63F41 /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
+		519262FB1C0C6CBC00B63F41 /* ParseTwitterUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseTwitterUtils.framework; sourceTree = "<group>"; };
+		519262FC1C0C6CBC00B63F41 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		519263031C0C6CF900B63F41 /* LoginSignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginSignupViewController.swift; sourceTree = "<group>"; };
+		519263051C0C6D7400B63F41 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		519263071C0C6D7F00B63F41 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		519263091C0C6D8500B63F41 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5192630B1C0C6D8C00B63F41 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		5192630D1C0C6D9300B63F41 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		5192630F1C0C6D9B00B63F41 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		519263111C0C6DA100B63F41 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		519263131C0C6DA800B63F41 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		519263151C0C6DB200B63F41 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		519263171C0C6DBB00B63F41 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		5192631D1C0C70CC00B63F41 /* chequeo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = chequeo.swift; sourceTree = "<group>"; };
+		519263211C0C751600B63F41 /* chek.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = chek.swift; sourceTree = "<group>"; };
+		519263231C0C75DE00B63F41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../Downloads/Snapchat_Complete/Snapchat/Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +132,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				519263181C0C6DBB00B63F41 /* libsqlite3.tbd in Frameworks */,
+				519263161C0C6DB200B63F41 /* libz.tbd in Frameworks */,
+				519263141C0C6DA800B63F41 /* SystemConfiguration.framework in Frameworks */,
+				519263121C0C6DA100B63F41 /* StoreKit.framework in Frameworks */,
+				519263101C0C6D9B00B63F41 /* Security.framework in Frameworks */,
+				5192630E1C0C6D9300B63F41 /* QuartzCore.framework in Frameworks */,
+				5192630C1C0C6D8C00B63F41 /* CoreLocation.framework in Frameworks */,
+				5192630A1C0C6D8500B63F41 /* CoreGraphics.framework in Frameworks */,
+				519263081C0C6D7F00B63F41 /* CFNetwork.framework in Frameworks */,
+				519263061C0C6D7400B63F41 /* AudioToolbox.framework in Frameworks */,
+				519263021C0C6CBC00B63F41 /* ParseUI.framework in Frameworks */,
+				519262FE1C0C6CBC00B63F41 /* Parse.framework in Frameworks */,
+				519262FD1C0C6CBC00B63F41 /* Bolts.framework in Frameworks */,
+				519263001C0C6CBC00B63F41 /* ParseFacebookUtilsV4.framework in Frameworks */,
+				519262FF1C0C6CBC00B63F41 /* ParseFacebookUtils.framework in Frameworks */,
+				519263011C0C6CBC00B63F41 /* ParseTwitterUtils.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,6 +164,7 @@
 		519262AB1C0C6A0200B63F41 = {
 			isa = PBXGroup;
 			children = (
+				519262F61C0C6CAC00B63F41 /* FW */,
 				519262B61C0C6A0200B63F41 /* LFG */,
 				519262CA1C0C6A0200B63F41 /* LFG WatchKit App */,
 				519262D91C0C6A0200B63F41 /* LFG WatchKit Extension */,
@@ -128,10 +187,15 @@
 			children = (
 				519262B71C0C6A0200B63F41 /* AppDelegate.swift */,
 				519262B91C0C6A0200B63F41 /* ViewController.swift */,
+				519262F21C0C6A0C00B63F41 /* elDetalle.swift */,
+				519262F41C0C6A1200B63F41 /* lista.swift */,
 				519262BB1C0C6A0200B63F41 /* Main.storyboard */,
-				519262BE1C0C6A0200B63F41 /* Assets.xcassets */,
-				519262C01C0C6A0200B63F41 /* LaunchScreen.storyboard */,
+				519263031C0C6CF900B63F41 /* LoginSignupViewController.swift */,
+				519263231C0C75DE00B63F41 /* Assets.xcassets */,
 				519262C31C0C6A0200B63F41 /* Info.plist */,
+				519262C01C0C6A0200B63F41 /* LaunchScreen.storyboard */,
+				5192631D1C0C70CC00B63F41 /* chequeo.swift */,
+				519263211C0C751600B63F41 /* chek.swift */,
 			);
 			path = LFG;
 			sourceTree = "<group>";
@@ -165,6 +229,29 @@
 				519262DB1C0C6A0200B63F41 /* PushNotificationPayload.apns */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		519262F61C0C6CAC00B63F41 /* FW */ = {
+			isa = PBXGroup;
+			children = (
+				519263171C0C6DBB00B63F41 /* libsqlite3.tbd */,
+				519263151C0C6DB200B63F41 /* libz.tbd */,
+				519263131C0C6DA800B63F41 /* SystemConfiguration.framework */,
+				519263111C0C6DA100B63F41 /* StoreKit.framework */,
+				5192630F1C0C6D9B00B63F41 /* Security.framework */,
+				5192630D1C0C6D9300B63F41 /* QuartzCore.framework */,
+				5192630B1C0C6D8C00B63F41 /* CoreLocation.framework */,
+				519263091C0C6D8500B63F41 /* CoreGraphics.framework */,
+				519263071C0C6D7F00B63F41 /* CFNetwork.framework */,
+				519263051C0C6D7400B63F41 /* AudioToolbox.framework */,
+				519262F71C0C6CBC00B63F41 /* Bolts.framework */,
+				519262F81C0C6CBC00B63F41 /* Parse.framework */,
+				519262F91C0C6CBC00B63F41 /* ParseFacebookUtils.framework */,
+				519262FA1C0C6CBC00B63F41 /* ParseFacebookUtilsV4.framework */,
+				519262FB1C0C6CBC00B63F41 /* ParseTwitterUtils.framework */,
+				519262FC1C0C6CBC00B63F41 /* ParseUI.framework */,
+			);
+			name = FW;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,7 +360,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				519262C21C0C6A0200B63F41 /* LaunchScreen.storyboard in Resources */,
-				519262BF1C0C6A0200B63F41 /* Assets.xcassets in Resources */,
+				519263241C0C75DE00B63F41 /* Assets.xcassets in Resources */,
 				519262BD1C0C6A0200B63F41 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,8 +389,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				519262F31C0C6A0C00B63F41 /* elDetalle.swift in Sources */,
 				519262BA1C0C6A0200B63F41 /* ViewController.swift in Sources */,
+				519263221C0C751600B63F41 /* chek.swift in Sources */,
+				5192631E1C0C70CC00B63F41 /* chequeo.swift in Sources */,
 				519262B81C0C6A0200B63F41 /* AppDelegate.swift in Sources */,
+				519263041C0C6CF900B63F41 /* LoginSignupViewController.swift in Sources */,
+				519262F51C0C6A1200B63F41 /* lista.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +597,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = LFG/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = UAFS.LFG;
@@ -516,6 +612,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = LFG/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = UAFS.LFG;
