@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51527DE41C0CBE9D0061020A /* AboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51527DE31C0CBE9D0061020A /* AboutVC.swift */; };
+		51527DEC1C0CCAF70061020A /* ControladorRenglon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51527DE61C0CCAF60061020A /* ControladorRenglon.swift */; };
+		51527DED1C0CCAF70061020A /* DetalleControlador.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51527DE71C0CCAF60061020A /* DetalleControlador.swift */; };
+		51527DEE1C0CCAF70061020A /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51527DE81C0CCAF60061020A /* ExtensionDelegate.swift */; };
+		51527DEF1C0CCAF70061020A /* Ideas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51527DE91C0CCAF70061020A /* Ideas.swift */; };
+		51527DF01C0CCAF70061020A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 51527DEA1C0CCAF70061020A /* Info.plist */; };
+		51527DF11C0CCAF70061020A /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51527DEB1C0CCAF70061020A /* InterfaceController.swift */; };
+		51830E541C0CD3C300BC70EE /* foto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51830E531C0CD3C300BC70EE /* foto.swift */; };
 		519262B81C0C6A0200B63F41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519262B71C0C6A0200B63F41 /* AppDelegate.swift */; };
 		519262BA1C0C6A0200B63F41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519262B91C0C6A0200B63F41 /* ViewController.swift */; };
 		519262BD1C0C6A0200B63F41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 519262BB1C0C6A0200B63F41 /* Main.storyboard */; };
@@ -15,9 +23,6 @@
 		519262CD1C0C6A0200B63F41 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 519262CB1C0C6A0200B63F41 /* Interface.storyboard */; };
 		519262CF1C0C6A0200B63F41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 519262CE1C0C6A0200B63F41 /* Assets.xcassets */; };
 		519262D61C0C6A0200B63F41 /* LFG WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 519262D51C0C6A0200B63F41 /* LFG WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		519262DD1C0C6A0200B63F41 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519262DC1C0C6A0200B63F41 /* InterfaceController.swift */; };
-		519262DF1C0C6A0200B63F41 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519262DE1C0C6A0200B63F41 /* ExtensionDelegate.swift */; };
-		519262E11C0C6A0200B63F41 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519262E01C0C6A0200B63F41 /* NotificationController.swift */; };
 		519262E31C0C6A0200B63F41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 519262E21C0C6A0200B63F41 /* Assets.xcassets */; };
 		519262F31C0C6A0C00B63F41 /* elDetalle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519262F21C0C6A0C00B63F41 /* elDetalle.swift */; };
 		519262F51C0C6A1200B63F41 /* lista.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519262F41C0C6A1200B63F41 /* lista.swift */; };
@@ -88,6 +93,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		51527DE31C0CBE9D0061020A /* AboutVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutVC.swift; sourceTree = "<group>"; };
+		51527DE61C0CCAF60061020A /* ControladorRenglon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControladorRenglon.swift; sourceTree = "<group>"; };
+		51527DE71C0CCAF60061020A /* DetalleControlador.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetalleControlador.swift; sourceTree = "<group>"; };
+		51527DE81C0CCAF60061020A /* ExtensionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		51527DE91C0CCAF70061020A /* Ideas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ideas.swift; sourceTree = "<group>"; };
+		51527DEA1C0CCAF70061020A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51527DEB1C0CCAF70061020A /* InterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		51830E531C0CD3C300BC70EE /* foto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = foto.swift; sourceTree = "<group>"; };
 		519262B41C0C6A0200B63F41 /* LFG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LFG.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		519262B71C0C6A0200B63F41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		519262B91C0C6A0200B63F41 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,11 +113,7 @@
 		519262D01C0C6A0200B63F41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		519262D51C0C6A0200B63F41 /* LFG WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "LFG WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		519262DB1C0C6A0200B63F41 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
-		519262DC1C0C6A0200B63F41 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
-		519262DE1C0C6A0200B63F41 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
-		519262E01C0C6A0200B63F41 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		519262E21C0C6A0200B63F41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		519262E41C0C6A0200B63F41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		519262F21C0C6A0C00B63F41 /* elDetalle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = elDetalle.swift; sourceTree = "<group>"; };
 		519262F41C0C6A1200B63F41 /* lista.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = lista.swift; sourceTree = "<group>"; };
 		519262F71C0C6CBC00B63F41 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
@@ -202,6 +211,8 @@
 				519263211C0C751600B63F41 /* chek.swift */,
 				519263251C0C815900B63F41 /* AmigosEd.swift */,
 				519263271C0C853D00B63F41 /* Amigos.swift */,
+				51830E531C0CD3C300BC70EE /* foto.swift */,
+				51527DE31C0CBE9D0061020A /* AboutVC.swift */,
 			);
 			path = LFG;
 			sourceTree = "<group>";
@@ -219,11 +230,13 @@
 		519262D91C0C6A0200B63F41 /* LFG WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				519262DC1C0C6A0200B63F41 /* InterfaceController.swift */,
-				519262DE1C0C6A0200B63F41 /* ExtensionDelegate.swift */,
-				519262E01C0C6A0200B63F41 /* NotificationController.swift */,
+				51527DE61C0CCAF60061020A /* ControladorRenglon.swift */,
+				51527DE71C0CCAF60061020A /* DetalleControlador.swift */,
+				51527DE81C0CCAF60061020A /* ExtensionDelegate.swift */,
+				51527DE91C0CCAF70061020A /* Ideas.swift */,
+				51527DEA1C0CCAF70061020A /* Info.plist */,
+				51527DEB1C0CCAF70061020A /* InterfaceController.swift */,
 				519262E21C0C6A0200B63F41 /* Assets.xcassets */,
-				519262E41C0C6A0200B63F41 /* Info.plist */,
 				519262DA1C0C6A0200B63F41 /* Supporting Files */,
 			);
 			path = "LFG WatchKit Extension";
@@ -384,6 +397,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51527DF01C0CCAF70061020A /* Info.plist in Resources */,
 				519262E31C0C6A0200B63F41 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -398,9 +412,11 @@
 				519262F31C0C6A0C00B63F41 /* elDetalle.swift in Sources */,
 				519262BA1C0C6A0200B63F41 /* ViewController.swift in Sources */,
 				519263281C0C853D00B63F41 /* Amigos.swift in Sources */,
+				51830E541C0CD3C300BC70EE /* foto.swift in Sources */,
 				519263261C0C815900B63F41 /* AmigosEd.swift in Sources */,
 				519263221C0C751600B63F41 /* chek.swift in Sources */,
 				5192631E1C0C70CC00B63F41 /* chequeo.swift in Sources */,
+				51527DE41C0CBE9D0061020A /* AboutVC.swift in Sources */,
 				519262B81C0C6A0200B63F41 /* AppDelegate.swift in Sources */,
 				519263041C0C6CF900B63F41 /* LoginSignupViewController.swift in Sources */,
 				519262F51C0C6A1200B63F41 /* lista.swift in Sources */,
@@ -411,9 +427,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				519262E11C0C6A0200B63F41 /* NotificationController.swift in Sources */,
-				519262DF1C0C6A0200B63F41 /* ExtensionDelegate.swift in Sources */,
-				519262DD1C0C6A0200B63F41 /* InterfaceController.swift in Sources */,
+				51527DF11C0CCAF70061020A /* InterfaceController.swift in Sources */,
+				51527DEF1C0CCAF70061020A /* Ideas.swift in Sources */,
+				51527DEC1C0CCAF70061020A /* ControladorRenglon.swift in Sources */,
+				51527DED1C0CCAF70061020A /* DetalleControlador.swift in Sources */,
+				51527DEE1C0CCAF70061020A /* ExtensionDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -544,12 +562,14 @@
 		519262E81C0C6A0200B63F41 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "LFG WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = UAFS.LFG.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
@@ -558,6 +578,7 @@
 		519262E91C0C6A0200B63F41 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "LFG WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = UAFS.LFG.watchkitapp.watchkitextension;
@@ -650,6 +671,7 @@
 				519262E91C0C6A0200B63F41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		519262EB1C0C6A0200B63F41 /* Build configuration list for PBXNativeTarget "LFG WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -658,6 +680,7 @@
 				519262ED1C0C6A0200B63F41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		519262EF1C0C6A0200B63F41 /* Build configuration list for PBXNativeTarget "LFG" */ = {
 			isa = XCConfigurationList;
@@ -666,6 +689,7 @@
 				519262F11C0C6A0200B63F41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

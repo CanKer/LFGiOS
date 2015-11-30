@@ -1,9 +1,9 @@
 //
-//  LoginSignupViewController.swift
-//  Snapchat
+//  LogIn.Swift
+//  LFG
 //
-//  Created by Duc Tran on 10/15/15.
-//  Copyright © 2015 Developers Academy. All rights reserved.
+//  Created by Jorge Arturo César Martínez on 30/11/15.
+//  Copyright © 2015 Jorge Arturo César Martínez. All rights reserved.
 //
 
 import UIKit
@@ -22,7 +22,6 @@ class LoginSignupViewController: PFLogInViewController
         self.delegate = self
         self.signUpController = signUpVC
         
-        // configure the logo
         logInView?.logo = UIImageView(image: UIImage(named: "logo")!)
         logInView?.logo?.contentMode = .ScaleAspectFit
         

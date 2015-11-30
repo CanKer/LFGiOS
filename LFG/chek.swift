@@ -8,12 +8,16 @@
 
 import UIKit
 import Parse
+import CoreMotion
 
 class chek: UIViewController {
-
+    private let motionManager = CMMotionManager()
+    private let queue = NSOperationQueue()
+    @IBOutlet weak var saludo: UILabel!
     
     struct Storyboard {
         static let ShowLoginSegue = "Show Log In"
+        static let ShowAbout = "About"
     }
     
     override func viewWillAppear(animated: Bool) {
@@ -28,8 +32,27 @@ class chek: UIViewController {
         if PFUser.currentUser() == nil {
             performSegueWithIdentifier(Storyboard.ShowLoginSegue, sender: nil)
         }
-        
-        // Do any additional setup after loading the view.
+        if motionManager.accelerometerAvailable {
+            motionManager.accelerometerUpdateInterval = 1.0/10.0
+            motionManager.startAccelerometerUpdatesToQueue(queue, withHandler: {
+                (motionData, error) -> Void in
+                if (error != nil){
+                    self.motionManager.stopAccelerometerUpdates()
+                }
+                else {
+                        if (motionData!.acceleration.x > 1.6 ||
+                            motionData!.acceleration.y > 1.6 ||
+                            motionData!.acceleration.z > 1.6) {
+                        NSLog("Hola, bienvenido a LFG")
+                                self.saludo.text = "Hola, bienvenido a LFG"
+                        self.performSegueWithIdentifier(Storyboard.ShowAbout, sender: nil)
+
+                                
+                        }
+                }
+            })
+        }
+
     }
     
     @IBAction func logOutDidTap(sender: AnyObject)
@@ -40,9 +63,10 @@ class chek: UIViewController {
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
+    
+
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?)
     {
@@ -50,18 +74,13 @@ class chek: UIViewController {
             let loginSignupVC = segue.destinationViewController as! LoginSignupViewController
             loginSignupVC.hidesBottomBarWhenPushed = true
             loginSignupVC.navigationItem.hidesBackButton = true
+        } else if segue.identifier == Storyboard.ShowAbout  {
+            let aboutV = segue.destinationViewController as! AboutVC
+            aboutV.navigationItem.hidesBackButton = true
+            
         }
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+ 
 }
