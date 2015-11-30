@@ -41,6 +41,8 @@
 		5192631E1C0C70CC00B63F41 /* chequeo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5192631D1C0C70CC00B63F41 /* chequeo.swift */; };
 		519263221C0C751600B63F41 /* chek.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519263211C0C751600B63F41 /* chek.swift */; };
 		519263241C0C75DE00B63F41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 519263231C0C75DE00B63F41 /* Assets.xcassets */; };
+		519263261C0C815900B63F41 /* AmigosEd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519263251C0C815900B63F41 /* AmigosEd.swift */; };
+		519263281C0C853D00B63F41 /* Amigos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519263271C0C853D00B63F41 /* Amigos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -125,6 +127,8 @@
 		5192631D1C0C70CC00B63F41 /* chequeo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = chequeo.swift; sourceTree = "<group>"; };
 		519263211C0C751600B63F41 /* chek.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = chek.swift; sourceTree = "<group>"; };
 		519263231C0C75DE00B63F41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../Downloads/Snapchat_Complete/Snapchat/Assets.xcassets; sourceTree = "<group>"; };
+		519263251C0C815900B63F41 /* AmigosEd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmigosEd.swift; sourceTree = "<group>"; };
+		519263271C0C853D00B63F41 /* Amigos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Amigos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,6 +200,8 @@
 				519262C01C0C6A0200B63F41 /* LaunchScreen.storyboard */,
 				5192631D1C0C70CC00B63F41 /* chequeo.swift */,
 				519263211C0C751600B63F41 /* chek.swift */,
+				519263251C0C815900B63F41 /* AmigosEd.swift */,
+				519263271C0C853D00B63F41 /* Amigos.swift */,
 			);
 			path = LFG;
 			sourceTree = "<group>";
@@ -391,6 +397,8 @@
 			files = (
 				519262F31C0C6A0C00B63F41 /* elDetalle.swift in Sources */,
 				519262BA1C0C6A0200B63F41 /* ViewController.swift in Sources */,
+				519263281C0C853D00B63F41 /* Amigos.swift in Sources */,
+				519263261C0C815900B63F41 /* AmigosEd.swift in Sources */,
 				519263221C0C751600B63F41 /* chek.swift in Sources */,
 				5192631E1C0C70CC00B63F41 /* chequeo.swift in Sources */,
 				519262B81C0C6A0200B63F41 /* AppDelegate.swift in Sources */,
